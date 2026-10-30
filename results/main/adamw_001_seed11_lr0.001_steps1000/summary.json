@@ -1,0 +1,42 @@
+{
+  "config": "adamw_001",
+  "kind": "adamw",
+  "weight_decay": 0.01,
+  "seed": 11,
+  "peak_lr": 0.001,
+  "steps": 1000,
+  "batch": 32,
+  "model": {
+    "context": 128,
+    "width": 128,
+    "layers": 4,
+    "heads": 4,
+    "dropout": 0.1
+  },
+  "parameters": 824320,
+  "initial_hash": "427d0f9efe4ee065f4fc4df5f347fcf13979569f0c5e2b211038d5cc49824566",
+  "train_ce": 1.8288479149341583,
+  "val_ce": 1.9238364822563083,
+  "val_ppl": 6.847177217151085,
+  "param_norm": 44.79283750554667,
+  "grad_norm": 1.417616367340088,
+  "train_seconds": 7.316398899999998,
+  "wall_seconds": 7.7230080999999995,
+  "val_tokens": 55680,
+  "test_ce": 1.9673781033219961,
+  "test_ppl": 7.151900340798355,
+  "test_tokens": 55680,
+  "training_tokens": 4096000,
+  "tokens_per_second": 559838.2559485653,
+  "peak_cuda_mb": 128.42822265625,
+  "wall_total_seconds": 7.7453102000000005,
+  "environment": {
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.8.0+cu126",
+    "numpy": "1.26.3",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+    "precision": "BF16 autocast + FP32 parameters/moments"
+  }
+}

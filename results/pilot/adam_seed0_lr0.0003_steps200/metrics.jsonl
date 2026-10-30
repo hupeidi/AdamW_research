@@ -1,0 +1,2 @@
+{"step": 0, "train_ce": 4.22537887096405, "val_ce": 4.225337289393633, "val_ppl": 68.39756943312042, "param_norm": 38.46712778050304, "grad_norm": 0.0, "train_seconds": 0.0, "wall_seconds": 0.17706259999999974, "val_tokens": 55680}
+{"step": 200, "train_ce": 2.54375296831131, "val_ce": 2.5564489430394666, "val_ppl": 12.889962955332328, "param_norm": 38.830512859344815, "grad_norm": 0.5988590717315674, "train_seconds": 1.5658125999999997, "wall_seconds": 1.7736339, "val_tokens": 55680}

@@ -1,0 +1,42 @@
+{
+  "config": "adam",
+  "kind": "adam",
+  "weight_decay": 0.0,
+  "seed": 0,
+  "peak_lr": 0.0003,
+  "steps": 200,
+  "batch": 32,
+  "model": {
+    "context": 128,
+    "width": 128,
+    "layers": 4,
+    "heads": 4,
+    "dropout": 0.1
+  },
+  "parameters": 824320,
+  "initial_hash": "bccdb02c08d73397d52f303b4eddd39734fadaf5477f29164aa246110d026bbb",
+  "train_ce": 2.54375296831131,
+  "val_ce": 2.5564489430394666,
+  "val_ppl": 12.889962955332328,
+  "param_norm": 38.830512859344815,
+  "grad_norm": 0.5988590717315674,
+  "train_seconds": 1.5658125999999997,
+  "wall_seconds": 1.7736339,
+  "val_tokens": 55680,
+  "test_ce": null,
+  "test_ppl": null,
+  "test_tokens": 0,
+  "training_tokens": 819200,
+  "tokens_per_second": 523178.82740246196,
+  "peak_cuda_mb": 128.42822265625,
+  "wall_total_seconds": 1.7744054999999994,
+  "environment": {
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.8.0+cu126",
+    "numpy": "1.26.3",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+    "precision": "BF16 autocast + FP32 parameters/moments"
+  }
+}
